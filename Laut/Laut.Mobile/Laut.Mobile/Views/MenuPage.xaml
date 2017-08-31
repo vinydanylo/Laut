@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+                  prism:ViewModelLocator.AutowireViewModel="True"
+                  x:Class="Laut.Mobile.Views.MenuPage"
+                  Title="Menu"
+                  BackgroundColor="White">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <StackLayout Margin="10">
+                    
+                </StackLayout>
+                <BoxView
+                    BackgroundColor="#bdbdbd"
+                    HeightRequest="1"/>
+                <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding NavegateCommand}"
+                            CommandParameter="1"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Source="icon.png"/>
+                        <Label 
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Text="Principal"
+                            TextColor="#1F1F1F"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding NavegateCommand}"
+                            CommandParameter="2"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid Margin="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Source="icon.png"/>
+                        <Label 
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Text="Sobre"
+                            TextColor="#1F1F1F"/>
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+</MasterDetailPage>
