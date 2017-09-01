@@ -12,16 +12,13 @@
                 <StackLayout Margin="10">
                     
                 </StackLayout>
-                <BoxView
-                    BackgroundColor="#bdbdbd"
-                    HeightRequest="1"/>
                 <StackLayout>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer
                             Command="{Binding NavegateCommand}"
                             CommandParameter="1"/>
                     </StackLayout.GestureRecognizers>
-                    <Grid Margin="10">
+                    <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
@@ -32,12 +29,14 @@
                         <Image
                             Grid.Column="0"
                             Grid.Row="0"
-                            Source="icon.png"/>
+                            Source="home.png"
+                            Scale="0.76"/>
                         <Label 
                             Grid.Column="1"
                             Grid.Row="0"
                             Text="Principal"
-                            TextColor="#1F1F1F"/>
+                            TextColor="#1F1F1F"
+                            VerticalTextAlignment="Center"/>
                     </Grid>
                 </StackLayout>
                 <StackLayout>
@@ -46,7 +45,7 @@
                             Command="{Binding NavegateCommand}"
                             CommandParameter="2"/>
                     </StackLayout.GestureRecognizers>
-                    <Grid Margin="10">
+                    <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="Auto"/>
                             <ColumnDefinition Width="*"/>
@@ -57,12 +56,71 @@
                         <Image
                             Grid.Column="0"
                             Grid.Row="0"
-                            Source="icon.png"/>
+                            Source="service.png"
+                            Scale="0.76"/>
+                        <Label 
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Text="Seriços"
+                            TextColor="#1F1F1F"
+                            VerticalTextAlignment="Center"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding NavegateCommand}"
+                            CommandParameter="2"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Source="project.png"
+                            Scale="0.76"/>
+                        <Label 
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Text="Projetos"
+                            TextColor="#1F1F1F"
+                            VerticalTextAlignment="Center"/>
+                    </Grid>
+                </StackLayout>                
+                <StackLayout VerticalOptions="EndAndExpand">
+                    <BoxView                       
+                        BackgroundColor="#bdbdbd"
+                        HeightRequest="1"/>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding NavegateCommand}"
+                            CommandParameter="2"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Source="about.png"
+                            Scale="0.76"/>
                         <Label 
                             Grid.Column="1"
                             Grid.Row="0"
                             Text="Sobre"
-                            TextColor="#1F1F1F"/>
+                            TextColor="#1F1F1F"
+                            VerticalTextAlignment="Center"/>
                     </Grid>
                 </StackLayout>
             </StackLayout>

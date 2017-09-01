@@ -6,9 +6,9 @@ using System.Linq;
 
 namespace Laut.Mobile.ViewModels
 {
-    public class MainPageViewModel : BindableBase
+    public class AboutViewModel : BindableBase
     {
-        public MainPageViewModel()
+        public AboutViewModel()
         {
 
         }

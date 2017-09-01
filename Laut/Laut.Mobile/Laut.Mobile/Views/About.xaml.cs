@@ -2,9 +2,9 @@
 
 namespace Laut.Mobile.Views
 {
-    public partial class MainPage : CarouselPage
+    public partial class About : ContentPage
     {
-        public MainPage()
+        public About()
         {
             InitializeComponent();
         }

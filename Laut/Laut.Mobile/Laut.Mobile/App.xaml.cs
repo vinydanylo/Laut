@@ -18,10 +18,11 @@ namespace Laut.Mobile
         protected override void RegisterTypes()
         {
             Container.RegisterTypeForNavigation<NavigationPage>();
-            Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<MenuPage>();
             Container.RegisterTypeForNavigation<DetailPage>();
             Container.RegisterTypeForNavigation<MyNavigationPage>();
+            Container.RegisterTypeForNavigation<About>();
+            Container.RegisterTypeForNavigation<MainPage>();
         }
     }
 }

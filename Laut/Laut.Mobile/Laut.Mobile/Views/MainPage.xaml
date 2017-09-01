@@ -1,11 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Laut.Mobile.Views.MainPage"
-             Title="MainPage">
-  <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-    <Label Text="{Binding Title}" />
-  </StackLayout>
-</ContentPage>
+             Title="Home">
+    
+    <ContentPage Title="Page_1" BackgroundColor="Red" x:Name="a">
+        <StackLayout>
+            <StackLayout 
+                Margin="20"
+                VerticalOptions="EndAndExpand">
+                <Label
+                    HorizontalOptions="Center"
+                    Text="Deslize para a direita"/>
+                <Label
+                    HorizontalOptions="Center"
+                    Text="e saiba mais das nossas vantagens"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Page_2" BackgroundColor="Blue">
+
+    </ContentPage>
+    <ContentPage Title="Page_3" BackgroundColor="Black">
+
+    </ContentPage>
+
+</CarouselPage>
