@@ -8,32 +8,130 @@
 
     <ContentPage 
         Title="Page_1" 
-        BackgroundColor="#cde7e3">
+        BackgroundColor="#b4dbd5">
+        <Label
+            Text=""/>
         <StackLayout>
             <Image
-                Source="laut.png"/>
-            <StackLayout 
-                Margin="27"
+                VerticalOptions="CenterAndExpand"
+                Source="novo.png"
+                Scale="1"
+                Opacity="0.8"/>
+            <Label
+                Text="Exelência em Automação"
+                TextColor="#1F1F1F"
+                HorizontalOptions="Center"
+                FontSize="Medium"/>
+            <Label
+                Text="Desde 2008"
+                TextColor="#1F1F1F"
+                HorizontalOptions="Center"
+                FontSize="Medium"/>
+            <StackLayout
                 VerticalOptions="EndAndExpand">
-                <Label
-                    HorizontalOptions="Center"
-                    Text="Deslize para a direita"/>
-                <Label
-                    HorizontalOptions="Center"
-                    Text="e saiba mais das nossas vantagens"/>
-            </StackLayout>
-            
+                <Grid
+                    ColumnSpacing="0"
+                    HeightRequest="40">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="70"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="40"/>
+                    </Grid.RowDefinitions>
+                    <StackLayout
+                        Grid.Column="0"
+                        BackgroundColor="#035146">
+                        <Image
+                            Source="arrow_d.png"
+                            Scale="0.4"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"/>
+                    </StackLayout>
+                    <StackLayout
+                        Grid.Column="1"
+                        BackgroundColor="#046c5e">
+                        <Label
+                            Text="Deslize para a direita e saiba mais"
+                            TextColor="White"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Grid>
+            </StackLayout>            
         </StackLayout>
     </ContentPage>
     <ContentPage 
         Title="Page_2" 
-        BackgroundColor="#cde7e3">
-
+        BackgroundColor="#a2c5bf">
+        <StackLayout
+                VerticalOptions="EndAndExpand">
+            <Grid
+                    ColumnSpacing="0"
+                    HeightRequest="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <StackLayout
+                        Grid.Column="0"
+                        BackgroundColor="#035146">
+                    <Image
+                            Source="arrow_d.png"
+                            Scale="0.4"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout
+                        Grid.Column="1"
+                        BackgroundColor="#046c5e">
+                    <Label
+                            Text="Deslize para a direita e saiba mais"
+                            TextColor="White"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
     </ContentPage>
     <ContentPage 
         Title="Page_3" 
-        BackgroundColor="#cde7e3">
-
+        BackgroundColor="#90afaa">
+        <StackLayout
+                VerticalOptions="EndAndExpand">
+            <Grid
+                    ColumnSpacing="0"
+                    HeightRequest="40">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="70"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"/>
+                </Grid.RowDefinitions>
+                <StackLayout
+                        Grid.Column="0"
+                        BackgroundColor="#035146">
+                    <Image
+                            Source="arrow_d.png"
+                            Scale="0.4"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"/>
+                </StackLayout>
+                <StackLayout
+                        Grid.Column="1"
+                        BackgroundColor="#046c5e">
+                    <Label
+                            Text="Deslize para a direita e saiba mais"
+                            TextColor="White"
+                            VerticalOptions="CenterAndExpand"
+                            HorizontalOptions="Center"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
     </ContentPage>
 
 </CarouselPage>

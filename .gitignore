@@ -49,6 +49,7 @@ artifacts/
 **/Properties/launchSettings.json
 
 *_i.c
+*.bak
 *_p.c
 *_i.h
 *.ilk
