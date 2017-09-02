@@ -5,9 +5,9 @@
                   prism:ViewModelLocator.AutowireViewModel="True"
                   x:Class="Laut.Mobile.Views.MenuPage"
                   Title="Menu"
-                  BackgroundColor="White">
+                  BackgroundColor="#e6f3f1">
     <MasterDetailPage.Master>
-        <ContentPage Title="Menu">
+        <ContentPage Title="Menu" BackgroundColor="#e6f3f1">
             <StackLayout>
                 <StackLayout Margin="10">
                     
@@ -35,6 +35,33 @@
                             Grid.Column="1"
                             Grid.Row="0"
                             Text="Principal"
+                            TextColor="#1F1F1F"
+                            VerticalTextAlignment="Center"/>
+                    </Grid>
+                </StackLayout>
+                <StackLayout>
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer
+                            Command="{Binding NavegateCommand}"
+                            CommandParameter="1"/>
+                    </StackLayout.GestureRecognizers>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Image
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            Source="news.png"
+                            Scale="0.76"/>
+                        <Label 
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            Text="Notícias"
                             TextColor="#1F1F1F"
                             VerticalTextAlignment="Center"/>
                     </Grid>

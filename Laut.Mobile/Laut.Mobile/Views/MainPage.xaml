@@ -5,11 +5,15 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Laut.Mobile.Views.MainPage"
              Title="Home">
-    
-    <ContentPage Title="Page_1" BackgroundColor="Red" x:Name="a">
+
+    <ContentPage 
+        Title="Page_1" 
+        BackgroundColor="#cde7e3">
         <StackLayout>
+            <Image
+                Source="laut.png"/>
             <StackLayout 
-                Margin="20"
+                Margin="27"
                 VerticalOptions="EndAndExpand">
                 <Label
                     HorizontalOptions="Center"
@@ -21,10 +25,14 @@
             
         </StackLayout>
     </ContentPage>
-    <ContentPage Title="Page_2" BackgroundColor="Blue">
+    <ContentPage 
+        Title="Page_2" 
+        BackgroundColor="#cde7e3">
 
     </ContentPage>
-    <ContentPage Title="Page_3" BackgroundColor="Black">
+    <ContentPage 
+        Title="Page_3" 
+        BackgroundColor="#cde7e3">
 
     </ContentPage>
 
