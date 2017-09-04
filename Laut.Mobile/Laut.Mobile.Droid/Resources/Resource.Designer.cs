@@ -2227,8 +2227,8 @@ namespace Laut.Mobile.Droid
 			// aapt resource value: 0x7f0200a5
 			public const int news = 2130837669;
 			
-			// aapt resource value: 0x7f0200aa
-			public const int notification_template_icon_bg = 2130837674;
+			// aapt resource value: 0x7f0200ad
+			public const int notification_template_icon_bg = 2130837677;
 			
 			// aapt resource value: 0x7f0200a6
 			public const int novo = 2130837670;
@@ -2237,10 +2237,19 @@ namespace Laut.Mobile.Droid
 			public const int project = 2130837671;
 			
 			// aapt resource value: 0x7f0200a8
-			public const int service = 2130837672;
+			public const int project_w = 2130837672;
 			
 			// aapt resource value: 0x7f0200a9
-			public const int wp1 = 2130837673;
+			public const int service = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int service_w = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int teste = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int wp1 = 2130837676;
 			
 			static Drawable()
 			{

@@ -34,6 +34,9 @@ namespace Laut.Mobile.ViewModels
                 case 1:
                     _navigationService.NavigateAsync("NavigationPage/MainPage/DetailPage");
                     break;
+                case 2:
+                    _navigationService.NavigateAsync("NavigationPage/MainPage/NewsPage");
+                    break;
             }
         }
     }

@@ -12,7 +12,7 @@ namespace Laut.Mobile
         {
             InitializeComponent();
 
-            NavigationService.NavigateAsync("MenuPage/MyNavigationPage/MainPage");
+            NavigationService.NavigateAsync("MenuPage/NavigationPage/MainPage");
         }
 
         protected override void RegisterTypes()
@@ -23,6 +23,7 @@ namespace Laut.Mobile
             Container.RegisterTypeForNavigation<MyNavigationPage>();
             Container.RegisterTypeForNavigation<About>();
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<NewsPage>();
         }
     }
 }

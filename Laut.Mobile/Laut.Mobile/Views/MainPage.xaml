@@ -17,27 +17,17 @@
                 Source="novo.png"
                 Scale="1"
                 Opacity="0.8"/>
-            <Label
-                Text="Exelência em Automação"
-                TextColor="#1F1F1F"
-                HorizontalOptions="Center"
-                FontSize="Medium"/>
-            <Label
-                Text="Desde 2008"
-                TextColor="#1F1F1F"
-                HorizontalOptions="Center"
-                FontSize="Medium"/>
             <StackLayout
                 VerticalOptions="EndAndExpand">
                 <Grid
                     ColumnSpacing="0"
-                    HeightRequest="40">
+                    HeightRequest="50">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="70"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="40"/>
+                        <RowDefinition Height="50"/>
                     </Grid.RowDefinitions>
                     <StackLayout
                         Grid.Column="0"
@@ -63,25 +53,25 @@
     </ContentPage>
     <ContentPage 
         Title="Page_2" 
-        BackgroundColor="#a2c5bf">
+        BackgroundColor="#b4dbd5">
         <StackLayout
                 VerticalOptions="EndAndExpand">
             <Grid
                     ColumnSpacing="0"
-                    HeightRequest="40">
+                    HeightRequest="50">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="70"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
                 <StackLayout
                         Grid.Column="0"
                         BackgroundColor="#035146">
                     <Image
-                            Source="arrow_d.png"
-                            Scale="0.4"
+                            Source="service_w.png"
+                            Scale="0.76"
                             VerticalOptions="CenterAndExpand"
                             HorizontalOptions="Center"/>
                 </StackLayout>
@@ -89,7 +79,7 @@
                         Grid.Column="1"
                         BackgroundColor="#046c5e">
                     <Label
-                            Text="Deslize para a direita e saiba mais"
+                            Text="Serviços"
                             TextColor="White"
                             VerticalOptions="CenterAndExpand"
                             HorizontalOptions="Center"/>
@@ -99,25 +89,25 @@
     </ContentPage>
     <ContentPage 
         Title="Page_3" 
-        BackgroundColor="#90afaa">
+        BackgroundColor="#b4dbd5">
         <StackLayout
                 VerticalOptions="EndAndExpand">
             <Grid
                     ColumnSpacing="0"
-                    HeightRequest="40">
+                    HeightRequest="50">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="70"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="40"/>
+                    <RowDefinition Height="50"/>
                 </Grid.RowDefinitions>
                 <StackLayout
                         Grid.Column="0"
                         BackgroundColor="#035146">
                     <Image
-                            Source="arrow_d.png"
-                            Scale="0.4"
+                            Source="project_w.png"
+                            Scale="0.76"
                             VerticalOptions="CenterAndExpand"
                             HorizontalOptions="Center"/>
                 </StackLayout>
@@ -125,7 +115,7 @@
                         Grid.Column="1"
                         BackgroundColor="#046c5e">
                     <Label
-                            Text="Deslize para a direita e saiba mais"
+                            Text="Projetos"
                             TextColor="White"
                             VerticalOptions="CenterAndExpand"
                             HorizontalOptions="Center"/>
