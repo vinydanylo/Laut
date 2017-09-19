@@ -50,7 +50,7 @@
                             <Frame
                                 Grid.Row="1"
                                 HasShadow="True" 
-                                BackgroundColor="#cccccc" 
+                                BackgroundColor="#d8d8d8" 
                                 HorizontalOptions="FillAndExpand">
                                 <Grid
                                     RowSpacing="0">
