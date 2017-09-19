@@ -7,6 +7,8 @@ namespace Laut.Mobile.Views
         public DetailPage()
         {
             InitializeComponent();
+
+            //banner.WidthRequest = this.Width;
         }
     }
 }

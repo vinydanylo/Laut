@@ -20,10 +20,12 @@ namespace Laut.Mobile
             Container.RegisterTypeForNavigation<NavigationPage>();
             Container.RegisterTypeForNavigation<MenuPage>();
             Container.RegisterTypeForNavigation<DetailPage>();
-            Container.RegisterTypeForNavigation<MyNavigationPage>();
             Container.RegisterTypeForNavigation<About>();
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<NewsPage>();
+            Container.RegisterTypeForNavigation<ServicePage>();
+            Container.RegisterTypeForNavigation<FormPage>();
+            Container.RegisterTypeForNavigation<ProjectPage>();
         }
     }
 }

@@ -5,8 +5,17 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Laut.Mobile.Views.DetailPage"
              Title="Detail">
+    
     <StackLayout>
-        <Label Text="Detail"/>
-    </StackLayout>
-  
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="450" />
+            </Grid.ColumnDefinitions>
+            <Image Source="inicial5.jpg" x:Name="banner"/>
+        </Grid>
+        <StackLayout Margin="20">
+            <Label Text="Titulo do Assunto" FontSize="Large" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
+            <Label Text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+    </StackLayout>  
 </ContentPage>

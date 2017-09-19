@@ -70,7 +70,7 @@
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer
                             Command="{Binding NavegateCommand}"
-                            CommandParameter="2"/>
+                            CommandParameter="3"/>
                     </StackLayout.GestureRecognizers>
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -97,7 +97,7 @@
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer
                             Command="{Binding NavegateCommand}"
-                            CommandParameter="2"/>
+                            CommandParameter="4"/>
                     </StackLayout.GestureRecognizers>
                     <Grid>
                         <Grid.ColumnDefinitions>

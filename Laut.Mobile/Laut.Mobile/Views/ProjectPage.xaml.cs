@@ -2,9 +2,9 @@
 
 namespace Laut.Mobile.Views
 {
-    public partial class MyNavigationPage : NavigationPage
+    public partial class ProjectPage : ContentPage
     {
-        public MyNavigationPage()
+        public ProjectPage()
         {
             InitializeComponent();
         }

@@ -3,13 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
              prism:ViewModelLocator.AutowireViewModel="True"
-             x:Class="Laut.Mobile.Views.NewsPage"
-             Title="Notícias">
+             x:Class="Laut.Mobile.Views.ServicePage"
+             Title="Serviços">
     <StackLayout>
         <ListView
             SeparatorVisibility="None"
-            ItemsSource="{Binding News}"
+            ItemsSource="{Binding Services}"
             RowHeight="160">
+            <ListView.Header>
+                <StackLayout>
+                <Label 
+                    Margin="10"
+                    Text="Confira todos os nossos serviços" 
+                    FontSize="Medium"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
+                    TextColor="Black"/>
+                    <Label
+                    Text="Para maiores informações basta selecionar o serviço" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+                </StackLayout>
+            </ListView.Header>
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
@@ -28,7 +43,7 @@
                                 BackgroundColor="#1d9383"
                                 HorizontalOptions="FillAndExpand">
                                 <Label
-                                    Text="{Binding Title}"
+                                    Text="{Binding Name}"
                                     TextColor="White"
                                     FontSize="Medium"/>
                             </Frame>
@@ -60,5 +75,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-    </StackLayout>  
+    </StackLayout>
 </ContentPage>
