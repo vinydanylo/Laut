@@ -5,17 +5,19 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Laut.Mobile.Views.DetailPage"
              Title="Detail">
-    
-    <StackLayout>
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="450" />
-            </Grid.ColumnDefinitions>
-            <Image Source="inicial5.jpg" x:Name="banner"/>
-        </Grid>
-        <StackLayout Margin="20">
-            <Label Text="Titulo do Assunto" FontSize="Large" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center"/>
-            <Label Text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa" HorizontalOptions="Center" VerticalOptions="Center"/>
+    <ScrollView>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="450" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding Image}" IsEnabled="{Binding Enable}"/>
+            </Grid>
+            <StackLayout Margin="20">
+                <Label Text="{Binding Title}" FontSize="Large" TextColor="Black" VerticalOptions="Center" IsEnabled="{Binding Enable}"/>
+                <Label Text="{Binding Subtitle}" FontSize="Medium" TextColor="Black" VerticalOptions="Center" IsEnabled="{Binding Enable}"/>
+                <Label Text="{Binding Text}" HorizontalOptions="Center" VerticalOptions="Center" IsEnabled="{Binding Enable}"/>
+            </StackLayout>
         </StackLayout>
-    </StackLayout>  
+    </ScrollView>
 </ContentPage>
