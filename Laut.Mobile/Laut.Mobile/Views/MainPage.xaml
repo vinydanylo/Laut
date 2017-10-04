@@ -120,7 +120,7 @@
                 TextColor="Black"
                 HorizontalOptions="Center"/>
             <Label 
-                Text="Temos anos de experiência na áre de controle"
+                Text="Temos anos de experiência na área de controle"
                 HorizontalOptions="Center"/>
             <Label 
                 Text="e automação de áreas industriais."

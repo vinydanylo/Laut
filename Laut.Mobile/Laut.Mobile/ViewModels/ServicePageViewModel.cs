@@ -21,7 +21,7 @@ namespace Laut.Mobile.ViewModels
 
             Services.Add(new Service
             {
-                Name = "Sintoniia e Avalização de malhas de controle insdustriais",
+                Name = "Sintonia e Avalização de malhas de controle insdustriais",
                 Description = "Temos uma ferramenta para o monitoramento, avaliação e sintonia de malhas de controle de processos industriais, que permite a avaliação do desempenho de malhas de controle através de índices de desempenho previamente definidos e, em caso de necessidade, a realização de forma automática da sintonia das malhas. O uso dessa ferramenta implica em benefícios econômicos ao processo decorrente de menor desgaste dos atuadores e de uma maior estabilidade das variáveis do processo."
             });
             Services.Add(new Service
